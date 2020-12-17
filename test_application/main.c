@@ -1,7 +1,7 @@
 
 #include "char_rom.h"
 
-extern Color color;
+extern Colors colors;
 
 
 void delay(int x)
@@ -14,8 +14,8 @@ int main(void)
 
     delay(40);
 
-    set_background_color(color.black);
-    set_char_color(color.white);
+    set_background_color(colors.BLACK);
+    set_char_color(colors.WHITE);
 
     set_char_pos(632, 352); // Center of screen
     display_char('E');
@@ -23,8 +23,8 @@ int main(void)
     delay(10);
 
     clear_char();
-    set_background_color(color.white);
-    set_char_color(color.blue);
+    set_background_color(colors.WHITE);
+    set_char_color(colors.BLUE);
     delay(4);
     while(1)
     {
