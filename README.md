@@ -8,4 +8,4 @@ This was a lab project for my digital systems class. The project was designed to
 ![System Block Diagram](system_bd.png)
 
 
-VGA to HDMI encoder module provided by [Real Digital](https://www.realdigital.org/doc/715356000ec89fbfd26a44cd2444659b)
+*VGA to HDMI encoder module provided by [Real Digital](https://www.realdigital.org/doc/715356000ec89fbfd26a44cd2444659b)
