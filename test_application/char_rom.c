@@ -1,7 +1,7 @@
 
 #include "char_rom.h"
 
-extern Color color;
+extern Colors colors;
 
 
 void init(void)
@@ -11,11 +11,11 @@ void init(void)
     set_background_color(0);
     set_char_color(0);
 
-    color.black = 0x000000;
-    color.white = 0xFFFFFF;
-    color.red   = 0xFF0000;
-    color.green = 0x00FF00;
-    color.blue  = 0x0000FF;
+    colors.BLACK = 0x000000;
+    colors.WHITE = 0xFFFFFF;
+    colors.RED   = 0xFF0000;
+    colors.GREEN = 0x00FF00;
+    colors.BLUE  = 0x0000FF;
 }
 
 void clear_char(void)
@@ -23,12 +23,12 @@ void clear_char(void)
     display_char('\0');
 }
 
-void set_background_color(uint32_t color)
+void set_background_color(Color color)
 {
     BACK_COLOR = (color & 0xFFFFFF);
 }
 
-void set_char_color(uint32_t color)
+void set_char_color(Color color)
 {
     CHAR_COLOR = (color & 0xFFFFFF);
 }
@@ -45,9 +45,9 @@ void display_char(char ch)
     CHAR_SET = (ch & 0xFF);
 }
 
-uint32_t create_color(uint8_t R, uint8_t G, uint8_t B)
+Color create_color(uint8_t R, uint8_t G, uint8_t B)
 {
-    uint32_t color = R;
+    Color color = R;
     color <<= 8;
     color |= (G & 0xFF);
     color <<= 8;
