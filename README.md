@@ -8,4 +8,7 @@ This was a lab project for my digital systems class. The project was designed to
 ![System Block Diagram](system_bd.png)
 
 
+#### [Video of the test application running](https://drive.google.com/file/d/1hD0VHN7D27NxYsh888R6UdT9YapW_Cg8/view?usp=sharing)
+
+
 *VGA to HDMI encoder module provided by [Real Digital](https://www.realdigital.org/doc/715356000ec89fbfd26a44cd2444659b)
