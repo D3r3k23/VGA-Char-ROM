@@ -1,5 +1,5 @@
 
-#include "char_rom.h"
+#include "vga_char_rom.h"
 
 extern Colors colors;
 
