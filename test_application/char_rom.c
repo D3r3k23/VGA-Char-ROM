@@ -44,3 +44,12 @@ void display_char(char ch)
 {
     CHAR_SET = (ch & 0xFF);
 }
+
+uint32_t create_color(uint8_t R, uint8_t G, uint8_t B)
+{
+    uint32_t color = R;
+    color <<= 8;
+    color |= (G & 0xFF);
+    color <<= 8;
+    color |= (B & 0xFF);
+}
