@@ -7,7 +7,7 @@ This was a lab project for my digital systems class. The project was designed to
 
 
 ### System block diagram
-![System Block Diagram](system_bd.png?raw=true)
-vga_char_rom_v1_0/
+![System Block Diagram](vga_char_rom_v1_0/system_bd.png?raw=true)
+
 
 *VGA to HDMI encoder module provided by [Real Digital](https://www.realdigital.org/doc/715356000ec89fbfd26a44cd2444659b)*
