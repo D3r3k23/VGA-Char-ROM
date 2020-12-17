@@ -1,6 +1,6 @@
 
-#ifndef CHAR_ROM_H
-#define CHAR_ROM_H
+#ifndef VGA_CHAR_ROM_H
+#define VGA_CHAR_ROM_H
 
 
 #include "stdint.h"
@@ -41,4 +41,4 @@ void display_char(char ch);
 Color create_color(uint8_t R, uint8_t G, uint8_t B);
 
 
-#endif // CHAR_ROM_H
+#endif // VGA_CHAR_ROM_H
