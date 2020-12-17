@@ -12,7 +12,6 @@ module vga_char_rom_v1_0
 //////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////
         input wire clk74M, rst,
-        input wire btn_0,
 
         output wire [7 : 0] R, G, B,
         output wire hsync, vsync, vid_active,
@@ -92,8 +91,8 @@ vga_char_rom_v1_0_S00_AXI # (
 //////////////////////////////////////////////////////////////////////////////////
     vga_controller vga_controller_inst
     (
-        .pix_clk ( clk74M      ),
-        .rst     ( rst | btn_0 ),
+        .pix_clk ( clk74M ),
+        .rst     ( rst    ),
 
         // Software control
         .background_color ( BACK_COLOR        ),
