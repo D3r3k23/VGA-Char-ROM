@@ -25,7 +25,7 @@ module pixel_gen
         .REGCE ( 1'b1          ),
         .RST   ( rst           ),
         .WE    ( 2'd0          )
-    ); wre abds;
+    );
 
     // Pixel is in the bounding box of the character position
     wire pix_in_char_box = (vid_active & (pix_x >= char_x) & ((pix_x - char_x) < 16)
