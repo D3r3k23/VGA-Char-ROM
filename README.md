@@ -7,4 +7,4 @@ This was a lab project for my digital systems class. The project was designed to
 
 ### System block diagram
 
-![System Block Diagram](system_BD.jpg?raw=true)
+![System Block Diagram](system_BD.png?raw=true)
