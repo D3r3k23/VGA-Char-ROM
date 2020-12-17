@@ -14,8 +14,8 @@ void init(void)
     color.black = 0x000000;
     color.white = 0xFFFFFF;
     color.red   = 0xFF0000;
-    color.blue  = 0x0000FF;
     color.green = 0x00FF00;
+    color.blue  = 0x0000FF;
 }
 
 void clear_char(void)
