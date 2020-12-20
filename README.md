@@ -10,4 +10,4 @@ This was a lab project for my digital systems class. The project was designed to
 ![System Block Diagram](vga_char_rom_v1_0/system_bd.png?raw=true)
 
 
-*[VGA-HDMI encoder IP](https://www.realdigital.org/doc/715356000ec89fbfd26a44cd2444659b) provided by Real Digital*
+*[VGA-HDMI encoder IP](https://github.com/RealDigitalOrg/VivadoIP/tree/master/hdmi_tx_1.0) provided by Real Digital*
