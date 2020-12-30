@@ -4,7 +4,7 @@
 
     // 720p
     // 1280 x 720
-    // 74 MHz
+    // 74 MHz Pixel Clock
 
     // Horizontal timing
     localparam H_FRONT  = 110;
