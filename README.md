@@ -8,7 +8,7 @@ This was a lab project for my digital systems class. The project was designed to
 
 
 ### System block diagram
-![System Block Diagram](vga_char_rom_v1.0/system_bd.png?raw=true)
+![System Block Diagram](system_bd.png?raw=true)
 
 
 *[VGA-HDMI encoder IP](https://github.com/RealDigitalOrg/VivadoIP/tree/master/hdmi_tx_1.0) provided by Real Digital*
