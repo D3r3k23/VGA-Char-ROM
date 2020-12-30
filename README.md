@@ -13,6 +13,6 @@ The functionality of this project was extended in [VGA-Console](https://github.c
 ![System Block Diagram](system_bd.png?raw=true)
 
 
-# *Provided by Real Digital:*
+#### *Provided by Real Digital:*
 * [VGA-HDMI encoder IP](https://github.com/RealDigitalOrg/VivadoIP/tree/master/hdmi_tx_1.0)
 * [char_rom.v block ram module](https://www.realdigital.org/doc/93562a1dd6587887f4265d6ecac23929)
